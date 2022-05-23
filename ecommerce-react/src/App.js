@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import CategoriesContainer from "./components/Dicrectory/Categories-Container.component";
 
-function App() {
+const App =()=> {
+
   return (
-    <div className="App">
-      hello world
-    </div>
+    <CategoriesContainer />
   );
 }
 
